@@ -16,7 +16,7 @@ document.addEventListener("DOMContentLoaded", function () {
             const productImage = productItem.querySelector("img").getAttribute("data-image");
 
             // Construct the WhatsApp message with the image URL as a clickable link
-            const message = `Hello, I would like to order the following product:\n\n*Product Name:* ${productName}\n*Price:* ₵${productPrice}\n*Image:* https://github.com/yello-lab/lawgeescloset/tree/main/${productImage}`;
+            const message = `Hello, I would like to order the following product:\n\n*Product Name:* ${productName}\n*Price:* ₵${productPrice}\n*Image:* https://raw.githubusercontent.com/yello-lab/lawgeescloset/refs/heads/main/${productImage}`;
 
             // Encode the message for the URL
             const encodedMessage = encodeURIComponent(message);
