@@ -22,7 +22,7 @@ document.addEventListener("DOMContentLoaded", function () {
             const encodedMessage = encodeURIComponent(message);
 
             // Open WhatsApp with the pre-filled message
-            const whatsappUrl = `https://wa.me/+233549031201?text=${encodedMessage}`;
+            const whatsappUrl = `https://wa.me/+233247770480?text=${encodedMessage}`;
             window.open(whatsappUrl, "_blank");
         });
     });
